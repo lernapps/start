@@ -1,7 +1,8 @@
 # Eine Lernapp für lernapps.net bauen
 
 Mit dieser Vorlage baust du eine kleine Lernapp, ohne etwas auf deinem Rechner zu installieren. Ein KI-Agent hilft dir
-im Browser. Du beschreibst, was du brauchst, er baut und prüft die App.
+im Browser. Du beschreibst, was du brauchst, er baut und prüft die App. Die Anleitung mit Bildern steht auf lernapps.net:
+[Mit Codespaces bauen](https://lernapps.net/apps/build/codespaces/).
 
 ## Was du brauchst
 
@@ -24,21 +25,25 @@ im Browser. Du beschreibst, was du brauchst, er baut und prüft die App.
 
 ## Anmelden
 
-**Claude:** Klicke links in der Seitenleiste auf das Funken-Symbol (Claude Code) und öffne eine neue Unterhaltung. Klicke
-auf **Sign in** und melde dich im Browser an. Meldet der Browser danach „Diese Seite ist nicht erreichbar“ (Adresse
-`localhost`), ist das im Codespace normal. Öffne den Link noch einmal: Claude zeigt jetzt einen Code. Kopiere ihn und
-füge ihn dort ein, wo Claude danach fragt. Siehst du das Symbol nicht, öffne das Terminal (unten, Menü **Terminal**,
-**Neues Terminal**) und tippe `claude`.
+Mit Bildern: [Mit Codespaces bauen](https://lernapps.net/apps/build/codespaces/) auf lernapps.net.
 
-**ChatGPT (Codex):** Klicke in der Seitenleiste auf das Symbol der Erweiterung **Codex** und melde dich mit deinem
-ChatGPT-Konto an. Siehst du es nicht, öffne das Terminal (Menü **Terminal**, **Neues Terminal**) und tippe `codex`.
-Klappt das Anmelden im Browser nicht, tippe `codex login --device-auth`. Die Anmeldung per Gerätecode muss in den
-ChatGPT-Sicherheitseinstellungen erlaubt sein.
+**Claude:** Klicke oben rechts im Editor auf das Symbol von Claude. Rechts öffnet sich ein Fenster. Wähle **Claude.ai
+Subscription** und dann **Continue in browser**. Beim ersten Mal klappt das meist nicht von selbst: Der Browser meldet
+„Diese Seite ist nicht erreichbar“ (Adresse `localhost`). Das ist im Codespace normal. Kopiere die Adresse aus dem Fenster
+von Claude (Knopf neben dem Feld) und füge sie noch einmal in einem neuen Tab deines Browsers ein. Folge dann den
+Hinweisen auf der Seite. Zeigt sie einen Code, kopiere ihn und füge ihn im Fenster von Claude ein.
+
+**ChatGPT (Codex):** Klicke oben rechts im Editor auf das Symbol von Codex. Wähle nicht **Mit ChatGPT anmelden**, sondern
+**Weitere Optionen** und dann die Anmeldung per Gerätecode. Du musst sie in ChatGPT einmal erlauben, unter Einstellungen im
+Bereich Sicherheit. Teile einen Gerätecode mit niemandem.
 
 Beim Start fragt der Editor, ob du den Autoren der Dateien in diesem Ordner vertraust. Klicke auf **Ordner vertrauen und
 fortfahren**. Ohne dieses Ja bleiben die Erweiterungen für Claude und Codex ausgeschaltet. Bei der Anmeldung fragt er
 manchmal, ob er eine Webseite öffnen darf: Klicke auf **Öffnen**. Das sind Rückfragen des Editors, keine Warnungen vor
 deiner App.
+
+Das Terminal unten brauchst du wahrscheinlich nicht. Du kannst es minimieren. Wer `claude` oder `codex` lieber im Terminal
+nutzt, installiert es mit `npm install --global @anthropic-ai/claude-code` oder `npm install --global @openai/codex`.
 
 ## Pausieren und später weitermachen
 
