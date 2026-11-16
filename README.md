@@ -1,8 +1,8 @@
-# Eine Lernapp für lernapps.net bauen
+# Eine Lernapp bauen oder für einen Anlass üben
 
 Mit dieser Vorlage baust du eine kleine Lernapp, ohne etwas auf deinem Rechner zu installieren. Ein KI-Agent hilft dir
 im Browser. Du beschreibst, was du brauchst, er baut und prüft die App. Die Anleitung mit Bildern steht auf lernapps.net:
-[Mit Codespaces bauen](https://lernapps.net/apps/build/codespaces/).
+[Mit Codespaces bauen](https://lernapps.net/apps/build/codespaces/) und [Mit Codespaces üben](https://lernapps.net/practice/codespaces/).
 
 ## Was du brauchst
 
@@ -18,8 +18,9 @@ im Browser. Du beschreibst, was du brauchst, er baut und prüft die App. Die Anl
    GitHub startet eine fertige Arbeitsumgebung im Browser. Das dauert einige Minuten. Diese Anleitung öffnet sich
    dort von selbst.
 3. Melde dich bei deinem Agenten an (siehe unten).
-4. Sage dem Agenten, welche App du bauen möchtest. Er fragt nach Thema, Klassenstufe und dem, was Lernende tun sollen.
-   Er legt die App in diesem Ordner an, nicht in einem Unterordner.
+4. Sage dem Agenten, was du möchtest: eine App zum Teilen bauen oder für einen Anlass üben, etwa die nächste Arbeit.
+   Er fragt nach Thema, Klassenstufe und dem, was Lernende tun sollen. Er legt die App in diesem Ordner an, nicht in
+   einem Unterordner.
 5. Der Agent zeigt dir Zwischenstände. Du bestätigst oder bittest um Änderungen. Am Ende prüft er die App und hilft dir,
    sie bei lernapps.net einzureichen.
 
